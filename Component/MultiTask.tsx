@@ -20,7 +20,9 @@ const styles = StyleSheet.create({
         marginVertical:26
     },
     multiHeader: {
-        fontSize:29,
-        fontWeight:"500"
+        fontSize:24,
+        fontWeight:"bold",
+        color:"#24282C"
+
     },
 })

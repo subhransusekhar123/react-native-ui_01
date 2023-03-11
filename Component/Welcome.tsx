@@ -24,6 +24,7 @@ export default function Welcome() {
 
 const styles = StyleSheet.create({
     welcomeContainer: {
+        marginTop:50,
         flex:1,
         flexDirection:"row",
         paddingHorizontal:8,
@@ -34,11 +35,14 @@ const styles = StyleSheet.create({
     welcomeMainView: {},
     welcomeText: {
         fontSize:15,
-        fontWeight:"500"
+        fontWeight:"500",
+        color:"#24282C"
     },
     headingText: {
         fontSize:25,
-        fontWeight:'bold'
+        fontWeight:'bold',
+        color:"#24282C"
+
     },
     welcomeImage: {
         height: 60,

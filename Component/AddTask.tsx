@@ -3,44 +3,43 @@ import React from 'react'
 
 export default function AddTask() {
     return (
+        <View>
         <View style={styles.addTask}>
             <TouchableOpacity >
-                <View style={styles.touch}>
+                <View>
                     <Text style={styles.colorHeading}>Add Task</Text>
                 </View>
             </TouchableOpacity>
             <Text style={styles.paragraph}>Creatives for Branging</Text>
+        </View>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     addTask: {
-        width: 120,
-        height: 120,
+        height:140,
+        width:130,
         borderWidth: 2,
-        flex: 1,
         justifyContent: "space-evenly",
-        alignItems: "center",
         borderRadius: 16,
-        borderStyle:"dotted"
+        borderStyle:"dotted",
+        paddingHorizontal:10,
+        borderColor:"#D7D7D7"
     },
     colorHeading: {
         textAlign: "center",
         fontWeight: "bold",
-        borderWidth: 2,
         width: 80,
         borderRadius: 8,
-        paddingHorizontal: 2,
+        paddingHorizontal: 3,
         paddingVertical: 6,
+        backgroundColor:"#D3F36B",
+        color:"#24282C"
 
     },
     paragraph: {
-        textAlign: "center",
+        textAlign: "left",
+        color:"#24282C"
     },
-    touch: {
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center"
-    }
 })
